@@ -1,0 +1,54 @@
+/h1{font-family: 'Source Sans Pro', sans-serif;height:56px; font-weight: 700; text-align: center;}
+h2{font-family: 'Source Sans Pro', sans-serif;height:25px; font-weight: 700;}
+h3{font-family: 'Source Sans Pro', sans-serif;height:20px; font-weight: 700;}
+h4{font-family: 'Source Sans Pro', sans-serif;height:16px; font-weight: 700; text-align: center;}
+h5{font-family: 'Source Sans Pro', sans-serif;font-size:16px; font-weight: 700; text-align: center;}
+h6{font-family: 'Source Sans Pro', sans-serif;height:56px; font-weight: 700; text-align: left;}
+.container{padding:40px 0px 60px 0px;}
+.pointer { cursor: pointer; }
+.img-pointer {cursor:pointer }
+.pad-top-20 {padding-top:22px;}
+.container-fluid 	{
+    padding-right: 0;
+    padding-left: 0;	}
+.header 	{	padding:20px 0px;	}
+.banner 	{	background-image:url(../img/banner.jpg); 
+	background-position: center;
+	height:500px;	}
+.services 	{	background-image:url(../img/background.jpg); 
+	background-repeat: repeat;
+	}	
+.services a, .services a:hover {color:#000;}
+.footer 	{	background-color: #333;
+	color:#ccc;
+	}
+.footer h1 	{	color:#fff;
+	}
+.footer h4 	{	color:#fff;
+	}
+.footer>.strong 	{	color:#fff;
+	}
+.footer2 	{	background-color: #333;
+	color:#ccc;
+	font-size: 11px;
+	text-align: center;
+	}
+.redtext {color:#E61C12;}
+.whitetext {color:#fff;}
+a, a:hover {color:#E61C12;}
+body	{
+	font-family: 'PT Sans', sans-serif;
+	font-size:16px	}	
+@media (max-width: 768px) 	{
+	h1 {font-size:30px;}
+	.container {padding:20px 0px;}	}
+.img-wrap, h1	{
+	text-align: center;
+	}
+.img-wrap a img 	{
+ 	display:block;	}
+.img-wrap > a	{
+ 	display:inline-block;
+ 	vertical-align: middle;
+ 	border: 1px solid #555
+	}
